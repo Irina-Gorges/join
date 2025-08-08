@@ -11,12 +11,12 @@ export const appConfig: ApplicationConfig = {
     provideZoneChangeDetection({ eventCoalescing: true }), 
     provideRouter(routes), 
     provideFirebaseApp(() => initializeApp({ 
-      projectId: "kanban-board-fe3c5", 
-      appId: "1:719244632942:web:63a5fdaacc220db6f1d77f", 
-      storageBucket: "kanban-board-fe3c5.firebasestorage.app", 
+      projectId: "join-abea3", 
+      appId: "1:283248561390:web:b65efece017763c535f7ff", 
+      storageBucket: "join-abea3.firebaseapp.com", 
       apiKey: "AIzaSyAXn_F7hJs9XUNhQ6izBnpOpY-MZK0yygs", 
       authDomain: "kanban-board-fe3c5.firebaseapp.com", 
-      messagingSenderId: "719244632942", 
+      messagingSenderId: "283248561390", 
       measurementId: "G-1N3F9WK1HD" 
     })), 
     provideAuth(() => getAuth()), 
